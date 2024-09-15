@@ -1,0 +1,18 @@
+.mainContainer{
+    margin-top: 5em;
+}
+
+.editDescription,.saveDescription{
+    padding: 0.25em 1em 0.25em 1em;
+    border-radius: 2px;
+    transition: 0.2s all ease-in-out;
+}
+
+.editDescription:hover,.saveDescription:hover{
+    background-color: lightgray;
+}
+
+.editDescription:focus,.saveDescription:focus{
+    outline: none;
+    border: none;
+}
