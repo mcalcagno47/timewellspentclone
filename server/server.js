@@ -11,7 +11,7 @@ const apiRoutes = require('./routes/api/index');
 // const cors = require("cors")
 // const stripe = require("stripe")(process.env.STRIPE_SECRET_TEST)
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 const app = express();
 const server = new ApolloServer({
   typeDefs,
